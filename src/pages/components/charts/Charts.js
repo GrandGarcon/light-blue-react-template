@@ -72,7 +72,7 @@ class Charts extends React.Component {
           <Row>
             <Col lg={7} xs={12}>
               <Widget
-                title={<h5>Apex <span className='fw-semi-bold'>Column Chart</span></h5>}
+                title={<h5>Apex <span className='fw-semi-bold'>% of society under certain income bracket  </span></h5>}
                 close collapse
               >
                 <ApexChart 
@@ -86,7 +86,7 @@ class Charts extends React.Component {
             </Col>
             <Col lg={5} xs={12}>
               <Widget
-                title={<h5>Echarts <span className='fw-semi-bold'>Line Chart</span></h5>}
+                title={<h5>Echarts <span className='fw-semi-bold'></span></h5>}
                 close collapse
               >
                 <ReactEchartsCore
@@ -99,7 +99,7 @@ class Charts extends React.Component {
             </Col>
             <Col lg={5} xs={12}>
               <Widget
-                title={<h5>Highcharts <span className='fw-semi-bold'>Line Chart</span></h5>}
+                title={<h5>Highcharts <span className='fw-semi-bold'>crimes chart </span></h5>}
                 close collapse
               >
                 <HighchartsReact options={cd.highcharts.mixed}/>
@@ -181,7 +181,7 @@ class Charts extends React.Component {
             </Col>
             <Col lg={12} xs={12}>
               <Widget
-                title={<h5>Echarts <span className="fw-semi-bold">River Chart</span></h5>}
+                title={<h5>Echarts <span className="fw-semi-bold"> the  % poverty based on race   </span></h5>}
                 close collapse
               >
                 <ReactEchartsCore

@@ -66,7 +66,7 @@ class Dashboard extends React.Component {
       <div className={s.root}>
         <h1 className="page-title">Dashboard &nbsp;
           <small>
-            <small>The Lucky One</small>
+            <small>oppertunity zones </small>
           </small>
         </h1>
 
